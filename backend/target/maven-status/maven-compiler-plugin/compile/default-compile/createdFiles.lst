@@ -1,0 +1,5 @@
+com/redhat/bvbackend/player/Player.class
+com/redhat/bvbackend/team/TeamRepository.class
+META-INF/panache-archive.marker
+com/redhat/bvbackend/player/PlayerRepository.class
+com/redhat/bvbackend/team/Team.class

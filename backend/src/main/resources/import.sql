@@ -1,0 +1,3 @@
+-- Add records for the default non-billable internal project numbers in to the database
+-- INSERT INTO projects (id, project_name, is_billable) VALUES (34930, 'Internal', '0');
+-- INSERT INTO projects (id, project_name, is_billable) VALUES (35046, 'Non-Revenue Value-Generating', '0');

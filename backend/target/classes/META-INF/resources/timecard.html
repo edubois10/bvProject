@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>File Upload to Database Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/wingcss/0.1.8/wing.min.css"/>
+    <img src="https://static.redhat.com/libs/redhat/brand-assets/2/corp/logo--hat-only.png" alt="Red Hat logo">
+</head>
+<body>
+<div class="container">
+    <h1>File Upload to Database Demo</h1>
+    <form method="post" action="/timecard" enctype="multipart/form-data">
+        <table border="0">
+            <tr>
+                <td>File Name Entry: </td>
+                <td><input type="text" name="fileName" size="50"/></td>
+            </tr>
+            <tr>
+                <td>Time card Entry: </td>
+                <td><input type="file" name="data" size="50"/></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Upload Files">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
